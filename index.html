@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags: HTML -->
+    <meta charset="UTF-8">
+    <title>• Welcome!</title>
+    <meta name="author" content="Adam SMITH" />
+    <meta name="title" content="Adam SMITH">
+    <meta name="description" content="Adam SMITH, Ingénieur d'études et développement, France" />
+    <meta name="keywords" content="Adam SMITH, Developer, Web, France" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="theme-color" content="#fff">
+
+    <!-- meta tags: OPEN GRAPH -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Adam SMITH" />
+    <meta property="og:title" content="Adam SMITH" />
+    <meta property="og:image" content="./assets/images/js.jpg" />
+    <meta property="og:description" content="Learn more about Adam SMITH, a passionate developer!" />
+    <meta property="og:url" content="https://elmahdik.github.io/" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- link -->
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logo/icon_16.ico" />
+    <link rel="apple-touch-startup-image" href="./assets/images/logo/icon_192.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/css.css" media="none" onload="if(media!=='all')media='all'">
+
+    <!-- script -->
+    <script src="./assets/js/js.js" defer></script>
+</head>
+
+<body>
+    <!--
+    <script>
+      /**
+       * @async
+       * @function registerSW
+       */
+      async function registerSW() {
+        if ('serviceWorker' in navigator) {
+          try {
+            await navigator.serviceWorker.register('./sw.js');
+          } catch (e) {
+            console.log(`SW registration failed`);
+          }
+        }
+      }
+    </script>
+     -->
+
+    <main>
+        <button id="bt_viewMenu"><i class="fas fa-bars"></i></button>
+        <aside id="aside_bio">
+            <img id="img_bio" title="Adam SMITH" alt="Adam SMITH" src="./assets/images/js.avif">
+
+            <div id="div_resume">
+                <p id="p_resume_title">Adam SMITH</p>
+                <p id="p_resume">Développeur web fullstack</p>
+                <p id="p_resume_bis">React / Nodejs</p>
+            </div>
+            <div id="div_resume_links">
+                <a id="a_download_cv" href="https://elmahdik.github.io/assets/cv/cv-elmahdi_korfed.pdf" target="_blank"
+                    rel="noreferrer noopener" class="bt_contact">CONSULTER
+                    MON CV</a>
+                <a href="https://www.linkedin.com/in/elmahdikorfed/" target="_blank" rel="noreferrer noopener"
+                    class="bt_contact">proposer une mission</a>
+            </div>
+            <ul>
+                <li><a id="linkedin_link" href="https://www.linkedin.com/in/elmahdikorfed/" target="_blank"
+                        rel="noreferrer noopener"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li><a id="email_link" href="mailto:elmahdi.korfed@gmail.com" target="_blank"
+                        rel="noreferrer noopener"><i class="fas fa-envelope"></i></a>
+                </li>
+            </ul>
+            <footer>
+                <p>© 2024</p>
+            </footer>
+        </aside>
+
+        <section>
+            <nav id="nav_menu">
+                <a href="#div_infos" class="link_active">infos</a>
+                <a href="#div_experience">expériences</a>
+                <a href="#div_formation">formation</a>
+                <a href="#div_competences">compétences</a>
+                <a href="#div_recommandations">recommandations</a>
+                <a href="#div_interet">centres d'intérêts</a>
+                <a href="#div_contact">contact</a>
+            </nav>
+            <article id="article_profil">
+                <div id="div_infos" class="div_page">
+                    <p class="p_title">INFOS</p>
+                    <span>
+                        <p>Passionné par le web et diplômé d'un BAC+5 en informatique, j'ai eu l'opportunité de
+                            travailler dans divers domaines en tant que développeur web/mobile - back et front:
+                            entreprise privée, laboratoire de recherche (INRIA/CNRS) et startup (European Innovation
+                            Academy 2015).</p>
+                        <p>J'aime apprendre et mettre en pratique les compétences acquises au travers d'applications
+                            concrètes web/mobile.</p>
+                        <p class="p_hashtag">#HTML #CSS #JAVASCRIPT</p>
+                    </span>
+                </div>
+                <div id="div_experience" class="div_page">
+                    <p class="p_title">EXPÉRIENCES</p>
+                    <ul>
+                        <li>
+                            <p class="p_ssTitle">💼 PROGRAMMEUR / 🏢 53JS</p>
+                            <p class="p_date">⏳ 20/03/2023 - 12/10/2023</p>
+                            <p class="p_date">📍 Nice, France</p>
+                            <p class="p_date">📝 CDI - 7 mois</p>
+                            <br />
+                            <p>→ Développement React - ajout de fonctionnalités avancées sur le player vidéo du produit
+                                du client</p>
+                            <p>→ Réalisation d'un visualiseur audio en utilisant la Web Audio API</p>
+                            <p>→ Développement sous linux - utilisation de GIT pour le versioning</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">💼 INGÉNIEUR D'ÉTUDES ET DÉVELOPPEMENT / 🏢 INRIA/CNRS</p>
+                            <p class="p_date">⏳ 01/02/2017 - 30/11/2019</p>
+                            <p class="p_date">📍 Sophia Antipolis, France</p>
+                            <p class="p_date">📝 CDD - 2 ans 10 mois</p>
+                            <br />
+                            <p>→ Développement de l'application web WASABI contenant +2M de chansons nécessitant la
+                                récupération de données musicales. Réalisation d'une API RESTFul avec documentation.
+                                Projet réalisé en collaboration avec Deezer et IRCAM. Présentation à Paris et Londres
+                            </p>
+                            <p>→ Développement web d'un Pedalboard en utilisant la Web Audio API et les composants web
+                            </p>
+                            <p>→ Etude de l’existant, extraction et mise à jour de données pour DBpedia Historique.
+                                Présentation à Lyon et Vienne</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">💼 DÉVELOPPEUR WEB MOBILE / 🏢 Net Solution Partner</p>
+                            <p class="p_date">⏳ 01/11/2015 - 31/10/2016</p>
+                            <p class="p_date">📍 Sophia Antipolis, France</p>
+                            <p class="p_date">📝 ALTERNANCE Master - 1 an</p>
+                            <br />
+                            <p>→ Analyse des besoins, conception, développement, tests, présentation clientèle et mise
+                                en production concernant l'optimisation du moteur de recherche des pages jaunes Monaco
+                            </p>
+                            <p>→ Développement d’une application mobile Android type LeBonCoin avec géolocalisation de
+                                produits</p>
+                            <p>→ Import, traitement et visualisation de données depuis un fichier client Excel</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">💼 DÉVELOPPEUR WEB / 🏢 Net Solution Partner</p>
+                            <p class="p_date">⏳ 19/05/2014 - 29/08/2014</p>
+                            <p class="p_date">📍 Sophia Antipolis, France</p>
+                            <p class="p_date">📝 STAGE Licence - 3 mois</p>
+                            <br />
+                            <p>→ Refonte du module de reporting et affichage cartographique des données au niveau
+                                mondial</p>
+                            <p>→ Optimisation des performances des calculs des rapports</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">💼 DÉVELOPPEUR WEB / 🏢 Net Solution Partner</p>
+                            <p class="p_date">⏳ 19/11/2012 - 31/07/2013</p>
+                            <p class="p_date">📍 Sophia Antipolis, France</p>
+                            <p class="p_date">📝 STAGE DUT - 8 mois</p>
+                            <br />
+                            <p>→ Développement du module de gestion de templates d’emails pour l'application Mailissimo
+                            </p>
+                            <p>→ Apprentissage des technologies web : ajax, jquery et coldfusion</p>
+                            <p>→ Obtention du double diplôme DUT et DUIP à l'issue de ma formation en entreprise</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="div_formation" class="div_page">
+                    <p class="p_title">FORMATION</p>
+                    <ul>
+                        <li>
+                            <p class="p_ssTitle">POEC Consultant DevOps</p>
+                            <p>IB Cegos - Sophia Antipolis</p>
+                            <p class="p_date">2023</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">Master MIAGE MBDS - mention bien</p>
+                            <p>Université de Nice Sophia Antipolis</p>
+                            <p class="p_date">2016</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">DUT informatique</p>
+                            <p>IUT de Nice</p>
+                            <p class="p_date">2013</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">Classe prépa PCSI</p>
+                            <p>Lycée des Eucalyptus</p>
+                            <p class="p_date">2010</p>
+                        </li>
+                        <li>
+                            <p class="p_ssTitle">Baccalauréat S</p>
+                            <p>Lycée des Eucalyptus</p>
+                            <p class="p_date">2009</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="div_competences" class="div_page">
+                    <p class="p_title">COMPÉTENCES</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>JAVASCRIPT</li>
+                        <li>TYPESCRIPT</li>
+                        <li>JQUERY</li>
+                        <li>ANGULAR</li>
+                        <li>REACT</li>
+                        <li>VUE</li>
+                        <li>SCSS</li>
+                        <li>BOOTSTRAP</li>
+                        <li>GIT</li>
+                        <li>VSCODE</li>
+                        <li>LINUX</li>
+                        <li>NODEJS</li>
+                        <li>PYTHON</li>
+                        <li>PHP</li>
+                        <li>COLDFUSION</li>
+                        <li>MONGODB</li>
+                        <li>MYSQL</li>
+                        <li>VIRTUOSODB</li>
+                        <li>Anglais</li>
+                        <li>Espagnol</li>
+                    </ul>
+                </div>
+
+                <div id="div_recommandations" class="div_page">
+                    <p class="p_title">RECOMMANDATIONS</p>
+                    <div id="div_recom">
+                        <div class="div_row">
+                            <button id="bt_preview"><i class="fas fa-arrow-left"></i></button>
+                            <ul>
+                                <li>
+                                    <span>
+                                        « Direct, efficace et capable de traiter des sujets très au-delà de sa zone de
+                                        confort,
+                                        Adam s'est révélé étonnamment mûr et a fait preuve d'une grande autonomie
+                                        lorsque
+                                        nous avons travaillé ensemble. »
+                                    </span>
+                                    <span>
+                                        Jonathan H., Co Founder @ Younicorns, 24 août 2020
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        « Adam a été mon chargé de TD en théorie du risque au cours de ma deuxième
+                                        année à
+                                        l'ENSAE. En tant qu'étudiant j'ai pu apprécier et bénéficier de sa pédagogie
+                                        ainsi
+                                        que
+                                        de son expérience. »
+                                    </span>
+                                    <span>
+                                        Benjamin P., Data Scientist & Economiste Stagiaire chez Deloitte Economic
+                                        Advisory, 30 juin 2020
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        « Adam est très impliqué et motivé par les travaux informatique menés au sein
+                                        des
+                                        GT
+                                        de
+                                        l'Institut des Informaticiens. Son apport est précieux. »
+                                    </span>
+                                    <span>
+                                        Picard F., Membre du Haut Conseil chez Institut des Informaticiens, 22 juin 2020
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        « Adam est un travailleur et doué, qui a obtenu les félicitations du jury de
+                                        l’Institut des Informaticiens à son mémoire d'informatique.
+
+                                        J’ai pu constater le grand intérêt que Adam SMITH avait pour la statistique.
+                                        Sa
+                                        motivation pour faire carrière dans cette discipline est très solide, et je n’ai
+                                        aucun
+                                        doute sur sa capacité à réussir brillamment ses prochaines expériences
+                                        professionnelles.
+
+                                        Je recommande donc, sans aucune réserve, son profil. »
+                                    </span>
+                                    <span>
+                                        Patrick G., Informatique ALM et Investissement chez AG2R LA MONDIALE, 1 mai 2029
+                                    </span>
+                                </li>
+                                <li>
+                                    <span>
+                                        « Adam est quelqu'un de rigoureux, de déterminé, quelqu'un qui a un très bon
+                                        sens
+                                        de
+                                        l'analyse et de la synthèse. Pendant ces dix mois où l'on a partagé la
+                                        présidence de
+                                        l'ISUP Junior, il a su intégrer rapidement la manière dont une association était
+                                        gérée,
+                                        tout en accumulant les connaissance sur notre association malgré le peu de temps
+                                        dont
+                                        nous disposions.
+                                        Adam a ma totale confiance pour mener à bien sa nouvelle mission, étant donné
+                                        qu'il
+                                        est aujourd'hui mon successeur en tant que président de l'ISUP Junior. Il est
+                                        plein
+                                        de
+                                        bonnes volonté et détient les qualités requises pour aller loin dans son futur
+                                        parcours
+                                        professionnel. »
+                                    </span>
+                                    <span>
+                                        Lucas R., Fully Qualified IT - Solvency II & ALM - CCR Re, 1 décembre 1995
+                                    </span>
+                                </li>
+                            </ul>
+                            <button id="bt_next"><i class="fas fa-arrow-right"></i></button>
+                        </div>
+                        <span id="sp_pagination"></span>
+                    </div>
+
+                </div>
+
+                <div id="div_interet" class="div_page">
+                    <p class="p_title">CENTRES D'INTÉRÊTS</p>
+                    <ul>
+                        <li>
+                            <img src="./assets/images/diet.png"><span>Nutrition</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/personal-development.png"><span>Développement personnel</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/dumbell.png"><span>Musculation</span>
+                        </li>
+                        <li>
+                            <img src="./assets/images/music.png"><span>Musique classique</span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="div_contact" class="div_page">
+                    <p class="p_title">contact</p>
+                    <form onsubmit="alert('merci'); return false;">
+                        <input type="email" name="email" required placeholder="Votre email">
+                        <textarea name="message" placeholder="Votre message"></textarea>
+                        <button type="submit">envoyer</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
