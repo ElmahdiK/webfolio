@@ -1,4 +1,4 @@
-![screenshot](assets/images/screenshot.png/screenshot.png)
+![screenshot](assets/images/screenshot.png)
 
 # webfolio
 
